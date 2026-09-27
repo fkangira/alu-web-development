@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header,
+main section:first-child {
+    background-color: #071629;
+}
+
+header > div {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 170px;
+}
+
+header div div {
+    display: flex;
+    gap: 45px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main section:first-child {
+    text-align: center;
+    padding: 110px 20px 90px;
+}
+
+main section:first-child > div:first-child h1 {
+    font-size: 72px;
+    margin: 0;
+    font-weight: 700;
+}
+
+main section:first-child > div:first-child p {
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 25px;
+}
+
+main section:first-child button {
+    margin-top: 25px;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 25px;
+    background-color: #c271ff;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+main section:first-child > div:nth-child(2) {
+    margin-top: 150px;
+}
+
+main section:first-child > div:nth-child(2) > h2 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+main section:first-child > div:nth-child(2) > div {
+    max-width: 1000px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+main section:first-child > div:nth-child(2) > div > div {
+    width: 180px;
+}
+
+main section:first-child > div:nth-child(2) img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main section:first-child h3 {
+    margin-bottom: 6px;
+}
+
+main section:first-child > div:nth-child(2) p {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+}
