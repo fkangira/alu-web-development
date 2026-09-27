@@ -18,3 +18,31 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #cccccc;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+aside {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    border-top: 1px solid #cccccc;
+}
+
+a {
+    color: #0056b3;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
