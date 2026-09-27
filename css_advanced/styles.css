@@ -283,3 +283,43 @@ main section:nth-child(4) button {
     font-weight: bold;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
+
+main section:nth-child(5) {
+    background-color: white;
+    color: #071629;
+    padding: 80px 20px 100px;
+}
+
+main section:nth-child(5) > h1 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+main section:nth-child(5) > div {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main section:nth-child(5) > div > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+main section:nth-child(5) > div > div > div {
+    width: 48%;
+}
+
+main section:nth-child(5) h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(5) p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #6b6b6b;
+}
